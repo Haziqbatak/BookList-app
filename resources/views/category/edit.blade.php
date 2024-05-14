@@ -2,8 +2,6 @@
     <div class="row">
         <div class="card-body">
             <h1 class="card-title text-center">Edit</h1>
-
-
             <form action="{{ route('category.update', $category->id) }}" method="POST">
                 @csrf
                 @method('PUT')

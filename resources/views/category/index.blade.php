@@ -1,3 +1,6 @@
+@extends('include.index')
+
+@section('content')
 <div class="container">
     <div class="ro">
         <div class="card-body">
@@ -55,3 +58,4 @@
         </div>
     </div>
 </div>
+@endsection
